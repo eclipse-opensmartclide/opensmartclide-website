@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Eclipse OpenSmartCLIDE</title>
-    <link>https://eclipse.org/opensmartclide/</link>
+    <link>https://eclipse-opensmartclide.github.io/opensmartclide-website/</link>
     <description>Recent content on Eclipse OpenSmartCLIDE</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 15 Dec 2022 16:00:00 +0200</lastBuildDate><atom:link href="https://eclipse.org/opensmartclide/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Dec 2022 16:00:00 +0200</lastBuildDate><atom:link href="https://eclipse-opensmartclide.github.io/opensmartclide-website/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo Webpage Creation for OpenSmartCLIDE</title>
-      <link>https://eclipse.org/opensmartclide/news/2022/12/31/hugo-webpage-creation-for-opensmartclide/</link>
+      <link>https://eclipse-opensmartclide.github.io/opensmartclide-website/news/2022/12/31/hugo-webpage-creation-for-opensmartclide/</link>
       <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
       
         
       
-      <guid>https://eclipse.org/opensmartclide/news/2022/12/31/hugo-webpage-creation-for-opensmartclide/</guid>
+      <guid>https://eclipse-opensmartclide.github.io/opensmartclide-website/news/2022/12/31/hugo-webpage-creation-for-opensmartclide/</guid>
       <description>The customised version of the Eclipse OpenSmartCLIDE project has been officially created. It is generated with the static web site generator Hugo.
 Your can retrieve:
  The source code of Hugo in this repository: opensmartclide-website.src. The default Eclipse project page here: PMI link.  </description>
@@ -21,12 +21,12 @@ Your can retrieve:
     
     <item>
       <title>SmartCLIDE goes Open-Source!</title>
-      <link>https://eclipse.org/opensmartclide/news/2022/10/18/smartclide-goes-open-source/</link>
+      <link>https://eclipse-opensmartclide.github.io/opensmartclide-website/news/2022/10/18/smartclide-goes-open-source/</link>
       <pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
       
         
       
-      <guid>https://eclipse.org/opensmartclide/news/2022/10/18/smartclide-goes-open-source/</guid>
+      <guid>https://eclipse-opensmartclide.github.io/opensmartclide-website/news/2022/10/18/smartclide-goes-open-source/</guid>
       <description>We are pleased to announce that our proposal to submit our code as an open-source platform extending Eclipse Theia has been accepted by the Eclipse community. Our code will be hosted under the name:
 Eclipse OpenSmartCLIDE Next step: submit our initial contribution for IP review. You can already read the description of our open-source project here:
 https://projects.eclipse.org/projects/ecd.opensmartclide

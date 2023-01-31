@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://eclipse.org/opensmartclide/about/</loc>
+    <loc>https://eclipse-opensmartclide.github.io/opensmartclide-website/about/</loc>
     <lastmod>2023-01-02T15:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://eclipse.org/opensmartclide/news/</loc>
+    <loc>https://eclipse-opensmartclide.github.io/opensmartclide-website/news/</loc>
     <lastmod>2023-01-02T15:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://eclipse.org/opensmartclide/resources/</loc>
+    <loc>https://eclipse-opensmartclide.github.io/opensmartclide-website/resources/</loc>
     <lastmod>2023-01-02T15:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://eclipse.org/opensmartclide/news/2022/12/31/hugo-webpage-creation-for-opensmartclide/</loc>
+    <loc>https://eclipse-opensmartclide.github.io/opensmartclide-website/news/2022/12/31/hugo-webpage-creation-for-opensmartclide/</loc>
     <lastmod>2022-12-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://eclipse.org/opensmartclide/</loc>
+    <loc>https://eclipse-opensmartclide.github.io/opensmartclide-website/</loc>
     <lastmod>2022-12-15T16:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://eclipse.org/opensmartclide/news/2022/10/18/smartclide-goes-open-source/</loc>
+    <loc>https://eclipse-opensmartclide.github.io/opensmartclide-website/news/2022/10/18/smartclide-goes-open-source/</loc>
     <lastmod>2022-10-18T00:00:00+00:00</lastmod>
   </url>
 </urlset>
