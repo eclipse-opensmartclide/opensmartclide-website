@@ -1,349 +1,527 @@
-<!doctype html><html lang=en>
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset=utf-8>
-<meta http-equiv=x-ua-compatible content="IE=edge">
-<meta name=viewport content="width=device-width,initial-scale=1">
+  
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <title>Eclipse OpenSmartCLIDE | Eclipse OpenSmartCLIDE</title>
-<meta property="og:title" content="Eclipse OpenSmartCLIDE | Eclipse OpenSmartCLIDE">
-<meta name=twitter:title content="Eclipse OpenSmartCLIDE | Eclipse OpenSmartCLIDE">
-<meta name=description content="The OpenSmartCLIDE project enables organizations on the path to digitalization to accelerate the creation and adoption of Cloud solutions. The innovative smart …">
+<meta property="og:title" content="Eclipse OpenSmartCLIDE | Eclipse OpenSmartCLIDE" />
+<meta name="twitter:title" content="Eclipse OpenSmartCLIDE | Eclipse OpenSmartCLIDE" />
+
+<meta name="description" content="The OpenSmartCLIDE project enables organizations on the path to digitalization to accelerate the creation and adoption of Cloud solutions. The innovative smart …">
 <meta property="og:description" content="The OpenSmartCLIDE project enables organizations on the path to digitalization to accelerate the creation and adoption of Cloud solutions. The innovative smart …">
-<meta name=twitter:description content="The OpenSmartCLIDE project enables organizations on the path to digitalization to accelerate the creation and adoption of Cloud solutions. The innovative smart …">
-<meta name=author content="OpenSmartCLIDE Project">
-<link href=/opensmartclide/images/logo/OpenSmartClideRGB-Color-256x256.ico rel=icon type=image/x-icon>
-<meta property="og:image" content="/opensmartclide/images/logo/OpenSmartClideRGB-Color_200px3.png">
-<meta name=twitter:image content="/opensmartclide/images/logo/OpenSmartClideRGB-Color_200px3.png">
-<meta name=twitter:card content="summary">
-<meta property="og:url" content="https://eclipse.org/opensmartclide/">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Eclipse OpenSmartCLIDE">
-<meta name=keywords content="cloud computing,Horizon 2020,Theia">
-<meta name=generator content="Hugo 0.91.2">
-<link rel=canonical href=https://eclipse.org/opensmartclide/>
-<link rel=alternate href=/opensmartclide/index.xml type=application/rss+xml title>
-<link rel=stylesheet href="/opensmartclide/css/styles.css?v=1675176307">
-<script>(function(b,d,e,a,g){b[a]=b[a]||[],b[a].push({'gtm.start':(new Date).getTime(),event:'gtm.js'});var f=d.getElementsByTagName(e)[0],c=d.createElement(e),h=a!='dataLayer'?'&l='+a:'';c.async=!0,c.src='https://www.googletagmanager.com/gtm.js?id='+g+h,f.parentNode.insertBefore(c,f)})(window,document,'script','dataLayer','GTM-5WLCZXC')</script>
-<script>var tableClasses="table"</script>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel=stylesheet type=text/css>
+<meta name="twitter:description" content="The OpenSmartCLIDE project enables organizations on the path to digitalization to accelerate the creation and adoption of Cloud solutions. The innovative smart …">
+<meta name="author" content="OpenSmartCLIDE Project"/>
+<link href='/opensmartclide/images/logo/OpenSmartClideRGB-Color-256x256.ico' rel='icon' type='image/x-icon'/>
+
+<meta property="og:image" content="/opensmartclide/images/logo/OpenSmartClideRGB-Color_200px3.png" />
+<meta name="twitter:image" content="/opensmartclide/images/logo/OpenSmartClideRGB-Color_200px3.png" />
+<meta name="twitter:card" content="summary" />
+<meta property="og:url" content="https://eclipse.org/opensmartclide/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Eclipse OpenSmartCLIDE" />
+<meta name="keywords" content="cloud computing, Horizon 2020, Theia">
+
+
+<meta name="generator" content="Hugo 0.91.2" />
+
+<link rel="canonical" href="https://eclipse.org/opensmartclide/" />
+
+<link rel="alternate" href="/opensmartclide/index.xml" type="application/rss+xml" title="">
+
+
+<link rel="stylesheet" href="/opensmartclide/css/styles.css?v=1675176708">
+  
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+  
+<script>
+	
+		var tableClasses = "table";
+	
+</script>
+
+  
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" type="text/css"/>
+
+  
 </head>
 <body>
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height=0 width=0 style=display:none;visibility:hidden></iframe></noscript>
-<a class=sr-only href=#content>Skip to main content</a>
-<header class=header-wrapper id=header-wrapper>
+  
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<a class="sr-only" href="#content">Skip to main content</a>
+<header class="header-wrapper" id="header-wrapper">
+  
+
 <div class="clearfix toolbar-container-wrapper">
-<div class=container>
-<div class="text-right toolbar-row row hidden-print">
-<div class="col-md-24 row-toolbar-col">
-<ul class=list-inline>
-<li><a href=https://accounts.eclipse.org/user/edit data-tab-destination=tab-profile><i class="fa fa-edit fa-fw"></i>&nbsp;Edit my account</a></li>
-<li><a class="toolbar-link toolbar-manage-cookies dropdown-toggle"><i class="fa fa-wrench"></i>&nbsp;Manage Cookies</a></li>
-</ul>
+  <div class="container">
+    <div class="text-right toolbar-row row hidden-print">
+      <div class="col-md-24 row-toolbar-col">
+        <ul class="list-inline">
+          <li><a href="https://accounts.eclipse.org/user/edit" class="" data-tab-destination="tab-profile"><i class="fa fa-edit fa-fw"></i>&nbsp;Edit my account</a></li>
+          <li><a class="toolbar-link toolbar-manage-cookies dropdown-toggle"><i class="fa fa-wrench"></i>&nbsp;Manage Cookies</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>
-</div>
-</div>
-</div>
-<div class=navbar-wrapper>
-<div class=container>
-<div class=row id=header-row>
-<div class="col-sm-5 col-md-4" id=header-left>
-<div class=wrapper-logo-default>
-<a title="Eclipse OpenSmartCLIDE" href=https://eclipse.org/opensmartclide>
-<img width=140 class="logo-eclipse-default img-responsive hidden-xs" src=/opensmartclide/images/logo/OpenSmartClideRGB-Color_200px3.png alt="Eclipse OpenSmartCLIDE">
-</a>
-</div>
-</div>
-<div class="col-sm-19 col-md-20 margin-top-10 reset" id=main-menu-wrapper>
-<div class="navbar float-sm-right yamm" id=main-menu>
-<div class="navbar-collapse collapse reset float-right" id=navbar-main-menu>
-<ul class="nav navbar-nav">
+  
+<div class="navbar-wrapper">
+  <div class="container">
+    <div class="row" id="header-row">
+      <div class="col-sm-5 col-md-4" id="header-left">
+        <div class="wrapper-logo-default">
+
+            
+
+            
+            
+            
+
+            
+
+            <a title="Eclipse OpenSmartCLIDE" href="https://eclipse.org/opensmartclide">
+              <img width="140" class="logo-eclipse-default img-responsive hidden-xs" src="/opensmartclide/images/logo/OpenSmartClideRGB-Color_200px3.png" alt="Eclipse OpenSmartCLIDE" />
+            </a>
+            
+
+        </div>
+      </div>
+      
+      
+      <div class="col-sm-19 col-md-20 margin-top-10 reset" id="main-menu-wrapper">
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        <div class="navbar float-sm-right yamm" id="main-menu">
+          <div class="navbar-collapse collapse reset float-right" id="navbar-main-menu">
+            <ul class="nav navbar-nav">
+              
+
+
+
 <li>
-<a href=/opensmartclide/about/>
-About
-</a>
+  <a class="" href="/opensmartclide/about/">
+  
+  About
+  </a>
+  
 </li>
+
+
 <li>
-<a href=/opensmartclide/news/>
-News
-</a>
+  <a class="" href="/opensmartclide/news/">
+  
+  News
+  </a>
+  
 </li>
+
+
 <li>
-<a href=/opensmartclide/resources/>
-Resources
-</a>
+  <a class="" href="/opensmartclide/resources/">
+  
+  Resources
+  </a>
+  
 </li>
+
+
 <li>
-<a href=https://projects.eclipse.org/projects/ecd.opensmartclide>
-PMI
-</a>
+  <a class="" href="https://projects.eclipse.org/projects/ecd.opensmartclide">
+  
+  PMI
+  </a>
+  
 </li>
+
+
 <li class="dropdown eclipse-more hidden-xs">
-<a data-toggle=dropdown class=dropdown-toggle role=button>More<b class=caret></b></a>
-<ul class=dropdown-menu>
-<li>
-<div class=yamm-content>
-<div class=row>
-<ul class="col-sm-8 list-unstyled">
-<li>
-<p><strong>Community</strong></p>
+  <a data-toggle="dropdown" class="dropdown-toggle" role="button">More<b class="caret"></b></a>
+  <ul class="dropdown-menu">
+    <li>
+      
+      <div class="yamm-content">
+        <div class="row">
+          <ul class="col-sm-8 list-unstyled">
+            <li>
+              <p><strong>Community</strong></p>
+            </li>
+            <li><a href="http://marketplace.eclipse.org">Marketplace</a></li>
+            <li><a href="http://events.eclipse.org">Events</a></li>
+            <li><a href="http://www.planeteclipse.org/">Planet Eclipse</a></li>
+            <li><a href="https://www.eclipse.org/community/eclipse_newsletter/">Newsletter</a></li>
+            <li><a href="https://www.youtube.com/user/EclipseFdn">Videos</a></li>
+            <li><a href="https://blogs.eclipse.org">Blogs</a></li>
+          </ul>
+          <ul class="col-sm-8 list-unstyled">
+            <li>
+              <p><strong>Participate</strong></p>
+            </li>
+            <li><a href="https://www.eclipse.org/downloads">Download</a></li>
+            <li><a href="https://www.eclipse.org/forums/">Forums</a></li>
+            <li><a href="https://www.eclipse.org/mail/">Mailing Lists</a></li>
+            <li><a href="https://wiki.eclipse.org/">Wiki</a></li>
+            <li><a href="https://wiki.eclipse.org/IRC">IRC</a></li>
+          </ul>
+          <ul class="col-sm-8 list-unstyled">
+            <li>
+              <p><strong>Eclipse IDE</strong></p>
+            </li>
+            <li><a href="https://www.eclipse.org/downloads">Download</a></li>
+            <li><a href="https://www.eclipse.org/downloads">Learn more</a></li>
+            <li><a href="https://help.eclipse.org">Documentation</a></li>
+            <li><a href="https://www.eclipse.org/getting_started">Getting Started / Support</a></li>
+            <li><a href="https://www.eclipse.org/contribute/">How to Contribute</a></li>
+            <li><a href="https://www.eclipse.org/ide/">IDE and Tools</a></li>
+            <li><a href="https://www.eclipse.org/forums/index.php/f/89/">Newcomer Forum</a></li>
+          </ul>
+        </div>
+      </div>
+    </li>
+  </ul>
 </li>
-<li><a href=http://marketplace.eclipse.org>Marketplace</a></li>
-<li><a href=http://events.eclipse.org>Events</a></li>
-<li><a href=http://www.planeteclipse.org/>Planet Eclipse</a></li>
-<li><a href=https://www.eclipse.org/community/eclipse_newsletter/>Newsletter</a></li>
-<li><a href=https://www.youtube.com/user/EclipseFdn>Videos</a></li>
-<li><a href=https://blogs.eclipse.org>Blogs</a></li>
-</ul>
-<ul class="col-sm-8 list-unstyled">
-<li>
-<p><strong>Participate</strong></p>
-</li>
-<li><a href=https://www.eclipse.org/downloads>Download</a></li>
-<li><a href=https://www.eclipse.org/forums/>Forums</a></li>
-<li><a href=https://www.eclipse.org/mail/>Mailing Lists</a></li>
-<li><a href=https://wiki.eclipse.org/>Wiki</a></li>
-<li><a href=https://wiki.eclipse.org/IRC>IRC</a></li>
-</ul>
-<ul class="col-sm-8 list-unstyled">
-<li>
-<p><strong>Eclipse IDE</strong></p>
-</li>
-<li><a href=https://www.eclipse.org/downloads>Download</a></li>
-<li><a href=https://www.eclipse.org/downloads>Learn more</a></li>
-<li><a href=https://help.eclipse.org>Documentation</a></li>
-<li><a href=https://www.eclipse.org/getting_started>Getting Started / Support</a></li>
-<li><a href=https://www.eclipse.org/contribute/>How to Contribute</a></li>
-<li><a href=https://www.eclipse.org/ide/>IDE and Tools</a></li>
-<li><a href=https://www.eclipse.org/forums/index.php/f/89/>Newcomer Forum</a></li>
-</ul>
-</div>
-</div>
-</li>
-</ul>
-</li>
+
+
+
+
 <li class="dropdown eclipse-more eclipse-gcse hidden-xs">
-<a data-toggle=dropdown class=dropdown-toggle role=button><i class="fa fa-search"></i> <b class=caret></b>
-</a>
-<ul class=dropdown-menu>
-<li>
-<div class=yamm-content>
-<div class=row>
-<div class=col-sm-24>
-<p>
-<strong>Search</strong>
-</p>
-<form action=https://www.eclipse.org/home/search method=get>
-<div class=form-group>
-<input class="form-control margin-bottom-10" type=textfield name=q placeholder=Search>
-<input class="btn btn-primary" type=submit value=Submit>
-</div>
-</form>
-</div>
-</div>
-</div>
+  <a data-toggle="dropdown" class="dropdown-toggle" role="button"><i class="fa fa-search"></i> <b class="caret"></b>
+  </a>
+  <ul class="dropdown-menu">
+    <li>
+      
+      <div class="yamm-content">
+        <div class="row">
+          <div class="col-sm-24">
+            <p>
+              <strong>Search</strong>
+            </p>
+            <form action="https://www.eclipse.org/home/search" method="get">
+              <div class="form-group">
+                <input class="form-control margin-bottom-10" type="textfield" name="q" placeholder="Search">
+                <input class="btn btn-primary" type="submit" value="Submit">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
 </li>
-</ul>
-</li>
-</ul>
+
+
+            </ul>
+          </div>
+          
+<div class="navbar-header">
+  
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-main-menu">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+  
+  <div class="wrapper-logo-mobile">
+      
+      
+      
+
+        
+
+      <a class="navbar-brand visible-xs" title="Eclipse OpenSmartCLIDE" href="https://eclipse.org/opensmartclide">
+        <img width="140" class="logo-eclipse-default-mobile img-responsive" src="/opensmartclide/images/logo/OpenSmartClideRGB-Color_200px3.png" alt="Eclipse OpenSmartCLIDE" />
+      </a>
+    
+  </div>
 </div>
-<div class=navbar-header>
-<button type=button class=navbar-toggle data-toggle=collapse data-target=#navbar-main-menu>
-<span class=sr-only>Toggle navigation</span>
-<span class=icon-bar></span>
-<span class=icon-bar></span>
-<span class=icon-bar></span>
-<span class=icon-bar></span>
-</button>
-<div class=wrapper-logo-mobile>
-<a class="navbar-brand visible-xs" title="Eclipse OpenSmartCLIDE" href=https://eclipse.org/opensmartclide>
-<img width=140 class="logo-eclipse-default-mobile img-responsive" src=/opensmartclide/images/logo/OpenSmartClideRGB-Color_200px3.png alt="Eclipse OpenSmartCLIDE">
-</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+
+  
+
+
 <div class="jumbotron featured-jumbotron margin-bottom-0">
-<div class=container>
-<div class=row>
-<div class="col-md-20 col-md-offset-2 col-sm-18 col-sm-offset-3">
-<h1>Eclipse OpenSmartCLIDE</h1>
-<h2>"The Stairway to Cloud"</h2>
-<div class=row>
-<div class="col-sm-18 col-sm-offset-3">
-<p></p>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-20 col-md-offset-2 col-sm-18 col-sm-offset-3">
+        <h1>Eclipse OpenSmartCLIDE</h1>
+         
+        <h2>&#34;The Stairway to Cloud&#34;</h2>
+          
+         
+         
+        <div class="row">
+          <div class="col-sm-18 col-sm-offset-3">
+            <p></p>
+          </div>
+        </div>
+         
+
+          
+
+        
+        <ul class="list-inline">
+          
+            <li><a class="btn btn-primary" href="https://github.com/eclipse-opensmartclide">Developer Resources</a></li>
+          
+            <li><a class="btn btn-primary" href="/resources/">Documentation</a></li>
+           
+        </ul>
+          
+      </div>
+    </div>
+  </div>
 </div>
-</div>
-<ul class=list-inline>
-<li><a class="btn btn-primary" href=https://github.com/eclipse-opensmartclide>Developer Resources</a></li>
-<li><a class="btn btn-primary" href=/resources/>Documentation</a></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
+
 </header>
+
+  
+  
+  
+
+
+
+ 
 <main>
-<div class="container-fluid featured-section-page-logo-bg">
-<p>
-<section id=clide class=featured-section-row>
-<div class=container>
-<h2>It is about...</h2>
-<div class="row text-center border-top">
-<div class="col-sm-5-eclipse margin-top-10"><img src=images/icons/icon-cloud-computing.png width=100><h3>Cloud Computing</h3></div>
-<div class="col-sm-5-eclipse margin-top-10"><img src=images/icons/icon-deep-learning.png width=100><h3>Deep Learning</h3></div>
-<div class="col-sm-5-eclipse margin-top-10"><img src=images/icons/icon-ide.png width=100><h3>Integrated Development Environment</h3></div>
-<div class="col-sm-5-eclipse margin-top-10"><img src=images/icons/icon-discovery.png width=100><h3>Service Discovery</h3></div>
-<div class="col-sm-5-eclipse margin-top-10"><img src=images/icons/icon-programming-ex.png width=100><h3>Programming by Examples</h3></div>
-</div>
-</div>
+  <div class="container-fluid featured-section-page-logo-bg">
+    
+
+    
+
+    
+
+  
+  <p>
+
+<section id="clide" class="featured-section-row">
+  <div class="container">
+
+		<h2>It is about...</h2>
+
+		<div class="row text-center border-top">
+			<div class="col-sm-5-eclipse margin-top-10"><img src="images/icons/icon-cloud-computing.png" width="100"/><h3>Cloud Computing</h3></div>
+			<div class="col-sm-5-eclipse margin-top-10"><img src="images/icons/icon-deep-learning.png" width="100"/><h3>Deep Learning</h3></div>
+			<div class="col-sm-5-eclipse margin-top-10"><img src="images/icons/icon-ide.png" width="100"/><h3>Integrated Development Environment</h3></div>
+			<div class="col-sm-5-eclipse margin-top-10"><img src="images/icons/icon-discovery.png" width="100"/><h3>Service Discovery</h3></div>
+			<div class="col-sm-5-eclipse margin-top-10"><img src="images/icons/icon-programming-ex.png" width="100"/><h3>Programming by Examples</h3></div>
+		</div>
+  </div>
 </section>
-<section id=presentation class="featured-section-row featured-section-large-text">
-<div class=container>
-<p><strong>Eclipse OpenSmartCLIDE</strong> enables organizations on the path to digitalization to accelerate the creation and adoption of Cloud solutions. The innovative smart cloud-native development environment will support creators of cloud services in the discovery, creation, composition, testing, and deployment of full-stack data-centered services and applications in the cloud.</p>
-<p>Eclipse OpenSmartCLIDE is based on <a href=https://theia-ide.org/>Eclipse Theia</a>.</p>
-<p>Its main features are:
-<ul>
-<li><strong>Life cycle support</strong>. Software follows a life cycle, from feature specification to solution deployment. Eclipse OpenSmartCLIDE provides the specific tools required at each life-cycle stage. For example, at the development stage, Eclipse OpenSmartCLIDE provides data sources, data transformations, graphics visualization artifacts, and general-purpose abstractions and patterns that can be combined to implement features.</li>
-<li><strong>Insightful source code monitoring</strong>. Eclipse OpenSmartCLIDE includes visualization features that help developers gain deeper understanding of the source code. It dynamically shows the meaning of expressions or code flow at low levels of granularity. It also allows developers to compare different software states, perform state changes that are reflected dynamically, and create new abstractions that can be easily reused.</li>
-<li><strong>CI/CD integration</strong>. Eclipse OpenSmartCLIDE enables integration with widely used CI/CD tools such as GitHub and GitLab.</li>
-</ul>
+
+
+
+<section id="presentation" class="featured-section-row featured-section-large-text">
+  <div class="container">
+	
+		<p><strong>Eclipse OpenSmartCLIDE</strong> enables organizations on the path to digitalization to accelerate the creation and adoption of Cloud solutions. The innovative smart cloud-native development environment will support creators of cloud services in the discovery, creation, composition, testing, and deployment of full-stack data-centered services and applications in the cloud.</p>
+		<p>Eclipse OpenSmartCLIDE is based on <a href="https://theia-ide.org/">Eclipse Theia</a>.</p>
+		
+		<p>Its main features are:
+		<ul>
+			<li><strong>Life cycle support</strong>. Software follows a life cycle, from feature specification to solution deployment. Eclipse OpenSmartCLIDE provides the specific tools required at each life-cycle stage. For example, at the development stage, Eclipse OpenSmartCLIDE provides data sources, data transformations, graphics visualization artifacts, and general-purpose abstractions and patterns that can be combined to implement features.</li>
+			<li><strong>Insightful source code monitoring</strong>. Eclipse OpenSmartCLIDE includes visualization features that help developers gain deeper understanding of the source code. It dynamically shows the meaning of expressions or code flow at low levels of granularity. It also allows developers to compare different software states, perform state changes that are reflected dynamically, and create new abstractions that can be easily reused.</li>
+			<li><strong>CI/CD integration</strong>. Eclipse OpenSmartCLIDE enables integration with widely used CI/CD tools such as GitHub and GitLab.</li>
+		</ul>
+		</p>
+
+  </div>
+</section>
+
+
+<section id="contributors" class="featured-section-row">
+  <div class="container text-center">
+
+		<h2>Contributors & Adopters</h2>
+		<div class="row">
+			<div class="border-top">
+				<div class="col-sm-5-eclipse margin-top-10"><a href="https://www.atb-bremen.de/"><img src="images/contributors/01-ATB-Square.png" width="150"/></a></div>
+				<div class="col-sm-5-eclipse margin-top-10"><a href="https://www.netcompany-intrasoft.com/"><img src="images/contributors/02-netcompany-intrasoft-Square.png" width="150"/></a></div>
+				<div class="col-sm-5-eclipse margin-top-10"><a href="https://www.air-institute.org/"><img src="images/contributors/03-AIR Institute-Square.png" width="150"/></a></div>
+				<div class="col-sm-5-eclipse margin-top-10"><a href="https://www.uom.gr/en"><img src="images/contributors/04-University_of_Macedonia-Square.png" width="150"/></a></div>
+				<div class="col-sm-5-eclipse margin-top-10"><a href="https://www.certh.gr/root.en.aspx"><img src="images/contributors/05-CERTH-square.png" width="150"/></a></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="border-top">
+				<div class="col-sm-5-eclipse margin-top-10"><a href="https://www.opengroup.org/"><img src="images/contributors/06-Open Group-Square.png" width="150"/></a></div>
+				<div class="col-sm-5-eclipse margin-top-10"><a href="https://wellnesstg.com/en/"><img src="images/contributors/08-Wellness Telecom-square.png" width="150"/></a></div>
+				<div class="col-sm-5-eclipse margin-top-10"><a href="http://www.unparallel.pt/"><img src="images/contributors/09-unparallel-square.png" width="150"/></a></div>
+				<div class="col-sm-5-eclipse margin-top-10"><a href="https://www.contact-software.com/"><img src="images/contributors/10-Contact Software-Square.png" width="150"/></a></div>
+				<div class="col-sm-5-eclipse margin-top-10"><a href="https://kairosds.com/"><img src="images/contributors/11-Kairos-Square.png" width="150"/></a></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="border-top">
+				<div class="col-sm-5-eclipse margin-top-10"></div>
+				<div class="col-sm-5-eclipse margin-top-10"></div>
+				<div class="col-sm-5-eclipse margin-top-10"><a href="http://eclipse.org/research"><img src="images/contributors/07-eclipse-research-square.png" width="150"/></a></div>
+				<div class="col-sm-5-eclipse margin-top-10"></div>
+				<div class="col-sm-5-eclipse margin-top-10"></div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<section id="h2020" class="featured-section-row">
+  <div class="container">
+
+    <div class="row">
+      <div class="border-top padding-top-10">
+        <div class="col-sm-12 col-sm-offset-6">
+          <div class="row">
+            <div class="col-sm-6">
+              <img class="margin-bottom-10" src="images/contributors/eu-flag.png" width="100"/>
+            </div>
+            <div class="col-sm-18">
+              <p>This project has received funding from the <strong>European Union's Horizon 2020</strong> research and innovation programme under grant agreement No 871177</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 </p>
-</div>
-</section>
-<section id=contributors class=featured-section-row>
-<div class="container text-center">
-<h2>Contributors & Adopters</h2>
-<div class=row>
-<div class=border-top>
-<div class="col-sm-5-eclipse margin-top-10"><a href=https://www.atb-bremen.de/><img src=images/contributors/01-ATB-Square.png width=150></a></div>
-<div class="col-sm-5-eclipse margin-top-10"><a href=https://www.netcompany-intrasoft.com/><img src=images/contributors/02-netcompany-intrasoft-Square.png width=150></a></div>
-<div class="col-sm-5-eclipse margin-top-10"><a href=https://www.air-institute.org/><img src="images/contributors/03-AIR Institute-Square.png" width=150></a></div>
-<div class="col-sm-5-eclipse margin-top-10"><a href=https://www.uom.gr/en><img src=images/contributors/04-University_of_Macedonia-Square.png width=150></a></div>
-<div class="col-sm-5-eclipse margin-top-10"><a href=https://www.certh.gr/root.en.aspx><img src=images/contributors/05-CERTH-square.png width=150></a></div>
-</div>
-</div>
-<div class=row>
-<div class=border-top>
-<div class="col-sm-5-eclipse margin-top-10"><a href=https://www.opengroup.org/><img src="images/contributors/06-Open Group-Square.png" width=150></a></div>
-<div class="col-sm-5-eclipse margin-top-10"><a href=https://wellnesstg.com/en/><img src="images/contributors/08-Wellness Telecom-square.png" width=150></a></div>
-<div class="col-sm-5-eclipse margin-top-10"><a href=http://www.unparallel.pt/><img src=images/contributors/09-unparallel-square.png width=150></a></div>
-<div class="col-sm-5-eclipse margin-top-10"><a href=https://www.contact-software.com/><img src="images/contributors/10-Contact Software-Square.png" width=150></a></div>
-<div class="col-sm-5-eclipse margin-top-10"><a href=https://kairosds.com/><img src=images/contributors/11-Kairos-Square.png width=150></a></div>
-</div>
-</div>
-<div class=row>
-<div class=border-top>
-<div class="col-sm-5-eclipse margin-top-10"></div>
-<div class="col-sm-5-eclipse margin-top-10"></div>
-<div class="col-sm-5-eclipse margin-top-10"><a href=http://eclipse.org/research><img src=images/contributors/07-eclipse-research-square.png width=150></a></div>
-<div class="col-sm-5-eclipse margin-top-10"></div>
-<div class="col-sm-5-eclipse margin-top-10"></div>
-</div>
-</div>
-</div>
-</section>
-<section id=h2020 class=featured-section-row>
-<div class=container>
-<div class=row>
-<div class="border-top padding-top-10">
-<div class="col-sm-12 col-sm-offset-6">
-<div class=row>
-<div class=col-sm-6>
-<img class=margin-bottom-10 src=images/contributors/eu-flag.png width=100>
-</div>
-<div class=col-sm-18>
-<p>This project has received funding from the <strong>European Union's Horizon 2020</strong> research and innovation programme under grant agreement No 871177</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-</p>
-</div>
+
+
+  
+
+    
+  </div>
 </main>
-<p id=back-to-top>
-<a class=visible-xs href=#top>Back to the top</a>
+  
+  
+  
+<p id="back-to-top">
+  <a class="visible-xs" href="#top">Back to the top</a>
 </p>
-<footer id=solstice-footer>
-<div class=container>
-<div class=row>
-<section class="col-sm-6 hidden-print" id=footer-eclipse-foundation>
-<h2 class=section-title>Eclipse Foundation</h2>
-<ul class=nav>
-<li><a href=https://www.eclipse.org/org/>About Us</a></li>
-<li><a href=https://www.eclipse.org/org/foundation/contact.php>Contact Us</a></li>
-<li><a href=https://www.eclipse.org/sponsor>Sponsor</a></li>
-<li><a href=https://www.eclipse.org/membership>Members</a></li>
-<li><a href=https://www.eclipse.org/org/documents/>Governance</a></li>
-<li><a href=https://www.eclipse.org/org/documents/Community_Code_of_Conduct.php>Code of Conduct</a></li>
-<li><a href=https://www.eclipse.org/artwork/>Logo and Artwork</a></li>
-<li><a href=https://www.eclipse.org/org/foundation/directors.php>Board of Directors</a></li>
-<li><a href=https://www.eclipse.org/careers/>Careers</a></li>
-</ul>
+<footer id="solstice-footer" class="">
+  <div class="container">
+    <div class="row">
+      
+      <section class="col-sm-6 hidden-print" id="footer-eclipse-foundation">
+  <h2 class="section-title">Eclipse Foundation</h2>
+  <ul class="nav">
+    <li><a href="https://www.eclipse.org/org/">About Us</a></li>
+    <li><a href="https://www.eclipse.org/org/foundation/contact.php">Contact Us</a></li>
+    <li><a href="https://www.eclipse.org/sponsor">Sponsor</a></li>
+    <li><a href="https://www.eclipse.org/membership">Members</a></li>
+    <li><a href="https://www.eclipse.org/org/documents/">Governance</a></li>
+    <li><a href="https://www.eclipse.org/org/documents/Community_Code_of_Conduct.php">Code of Conduct</a></li>
+    <li><a href="https://www.eclipse.org/artwork/">Logo and Artwork</a></li>
+    <li><a href="https://www.eclipse.org/org/foundation/directors.php">Board of Directors</a></li>
+    <li><a href="https://www.eclipse.org/careers/">Careers</a></li>
+  </ul>
 </section>
-<section class="col-sm-6 hidden-print" id=footer-legal>
-<h2 class=section-title>Legal</h2>
-<ul class=nav>
-<li><a href=https://www.eclipse.org/legal/privacy.php>Privacy Policy</a></li>
-<li><a href=https://www.eclipse.org/legal/termsofuse.php>Terms of Use</a></li>
-<li><a href=https://www.eclipse.org/legal/copyright.php>Copyright Agent</a></li>
-<li><a href=https://www.eclipse.org/legal/epl-2.0/>Eclipse Public License</a></li>
-<li><a href=https://www.eclipse.org/legal/>Legal Resources </a></li>
-</ul>
+<section class="col-sm-6 hidden-print" id="footer-legal">
+  <h2 class="section-title">Legal</h2>
+  <ul class="nav">
+    <li><a href="https://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li>
+    <li><a href="https://www.eclipse.org/legal/termsofuse.php">Terms of Use</a></li>
+    <li><a href="https://www.eclipse.org/legal/copyright.php">Copyright Agent</a></li>
+    <li><a href="https://www.eclipse.org/legal/epl-2.0/">Eclipse Public License</a></li>
+    <li><a href="https://www.eclipse.org/legal/">Legal Resources </a></li>
+  </ul>
 </section>
-<section class="col-sm-6 hidden-print" id=footer-useful-links>
-<h2 class=section-title>Useful Links</h2>
-<ul class=nav>
-<li><a href=https://bugs.eclipse.org/bugs/>Report a Bug</a></li>
-<li><a href=//help.eclipse.org/>Documentation</a></li>
-<li><a href=https://www.eclipse.org/contribute/>How to Contribute</a></li>
-<li><a href=https://www.eclipse.org/mail/>Mailing Lists</a></li>
-<li><a href=https://www.eclipse.org/forums/>Forums</a></li>
-<li><a href=//marketplace.eclipse.org>Marketplace</a></li>
-</ul>
+<section class="col-sm-6 hidden-print" id="footer-useful-links">
+  <h2 class="section-title">Useful Links</h2>
+  <ul class="nav">
+    <li><a href="https://bugs.eclipse.org/bugs/">Report a Bug</a></li>
+    <li><a href="//help.eclipse.org/">Documentation</a></li>
+    <li><a href="https://www.eclipse.org/contribute/">How to Contribute</a></li>
+    <li><a href="https://www.eclipse.org/mail/">Mailing Lists</a></li>
+    <li><a href="https://www.eclipse.org/forums/">Forums</a></li>
+    <li><a href="//marketplace.eclipse.org">Marketplace</a></li>
+  </ul>
 </section>
-<section class="col-sm-6 hidden-print" id=footer-other>
-<h2 class=section-title>Other</h2>
-<ul class=nav>
-<li><a href=https://www.eclipse.org/ide/>IDE and Tools</a></li>
-<li><a href=https://www.eclipse.org/projects>Projects</a></li>
-<li><a href=https://www.eclipse.org/org/workinggroups/>Working Groups</a></li>
-<li><a href=https://www.eclipse.org/org/research/>Research@Eclipse</a></li>
-<li><a href=https://www.eclipse.org/security/>Report a Vulnerability</a></li>
-<li><a href=https://status.eclipse.org>Service Status</a></li>
-</ul>
+<section class="col-sm-6 hidden-print" id="footer-other">
+  <h2 class="section-title">Other</h2>
+  <ul class="nav">
+    <li><a href="https://www.eclipse.org/ide/">IDE and Tools</a></li>
+    <li><a href="https://www.eclipse.org/projects">Projects</a></li>
+    <li><a href="https://www.eclipse.org/org/workinggroups/">Working Groups</a></li>
+    <li><a href="https://www.eclipse.org/org/research/">Research@Eclipse</a></li>
+    <li><a href="https://www.eclipse.org/security/">Report a Vulnerability</a></li>
+    <li><a href="https://status.eclipse.org">Service Status</a></li>
+  </ul>
 </section>
 <div class="col-sm-24 margin-top-20">
-<div class=row>
-<div id=copyright class=col-md-16>
-<p id=copyright-text>Copyright &copy; Eclipse Foundation. All Rights Reserved.</p>
-</div>
+  <div class="row">
+    <div id="copyright" class="col-md-16">
+      <p id="copyright-text">Copyright &copy; Eclipse Foundation. All Rights Reserved.</p>
+    </div>
+    
 <div class="col-md-8 social-media">
-<ul class=list-inline>
-<li><a class="social-media-link fa-stack fa-lg" href=https://twitter.com/EclipseFdn> <i class="fa fa-circle-thin fa-stack-2x"></i> <i class="fa fa-twitter fa-stack-1x"></i> <span class=sr-only>Twitter account</span>
-</a></li>
-<li><a class="social-media-link fa-stack fa-lg" href=https://www.facebook.com/eclipse.org> <i class="fa fa-circle-thin fa-stack-2x"></i> <i class="fa fa-facebook fa-stack-1x"></i> <span class=sr-only>Facebook account</span>
-</a></li>
-<li><a class="social-media-link fa-stack fa-lg" href=https://www.youtube.com/user/EclipseFdn> <i class="fa fa-circle-thin fa-stack-2x"></i> <i class="fa fa-youtube fa-stack-1x"></i> <span class=sr-only>Youtube account</span>
-</a></li>
-<li><a class="social-media-link fa-stack fa-lg" href=https://www.linkedin.com/company/eclipse-foundation title>
-<i class="fa fa-circle-thin fa-stack-2x"></i> <i class="fa fa-linkedin fa-stack-1x"></i> <span class=sr-only>Linkedin account</span>
-</a></li>
-</ul>
+  <ul class="list-inline">
+    <li><a class="social-media-link fa-stack fa-lg" href="https://twitter.com/EclipseFdn"> <i class="fa fa-circle-thin fa-stack-2x"></i> <i
+        class="fa fa-twitter fa-stack-1x"></i> <span class="sr-only">Twitter account</span>
+    </a></li>
+    <li><a class="social-media-link fa-stack fa-lg" href="https://www.facebook.com/eclipse.org"> <i class="fa fa-circle-thin fa-stack-2x"></i> <i
+        class="fa fa-facebook fa-stack-1x"></i> <span class="sr-only">Facebook account</span>
+    </a></li>
+    <li><a class="social-media-link fa-stack fa-lg" href="https://www.youtube.com/user/EclipseFdn"> <i class="fa fa-circle-thin fa-stack-2x"></i> <i
+        class="fa fa-youtube fa-stack-1x"></i> <span class="sr-only">Youtube account</span>
+    </a></li>
+    <li><a class="social-media-link fa-stack fa-lg" href="https://www.linkedin.com/company/eclipse-foundation" title="">
+        <i class="fa fa-circle-thin fa-stack-2x"></i> <i class="fa fa-linkedin fa-stack-1x"></i> <span class="sr-only">Linkedin account</span>
+    </a></li>
+  </ul>
 </div>
+  </div>
 </div>
-</div>
-<a href=# class=scrollup>Back to the top</a>
-</div>
-</div>
+
+
+      
+      <a href="#" class="scrollup">Back to the top</a>
+    </div>
+  </div>
 </footer>
-<div id=footer-js>
-<script src="/opensmartclide/js/solstice.js?v1?v=1675176307"></script>
-<script>(function(a,b){})(jQuery,document)</script>
+  
+  <div id="footer-js">
+  
+  <script src="/opensmartclide/js/solstice.js?v1?v=1675176708"></script>
+  
+
+  
+  
+
+  
+  <script>
+  (function($, document) {
+    
+    
+  })(jQuery, document);
+  </script>
+
+  
 </div>
+
 </body>
 </html>
+
